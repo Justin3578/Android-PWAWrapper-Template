@@ -1,4 +1,4 @@
-package com.develatio.androidpwawrapper;
+package com.androidpwawrapper.template;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,8 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebChromeClient;
 
-import com.develatio.androidpwawrapper.ui.UIManager;
-import com.develatio.androidpwawrapper.webview.WebViewHelper;
+import com.androidpwawrapper.template.ui.UIManager;
+import com.androidpwawrapper.template.webview.WebViewHelper;
 
 public class MainActivity extends AppCompatActivity {
     private WebViewHelper webViewHelper;
